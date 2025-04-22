@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": "Mais y a rien à développer ! C'est de la merde, c'est de la merde, c'est tout ! Moi, on me sert ça dans une auberge, le tavernier, il s'prend une quiche dans sa tête !",
+    "description": "Crafter du pain",
+    "show_toast": false
+  },
+  "parent": "arthania:kaamelott/food/get_seed",
+  "criteria": {
+    "bread_added": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bread"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": "Je ne mange PAS de graine !",
+    "description": "Récupérer des graines"
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "wheat_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wheat_seeds"]
+          }
+        ]
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:pumpkin_seeds"]
+          }
+        ]
+      }
+    },
+    "melon_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:melon_seeds"]
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:beetroot_seeds"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wheat_seeds",
+      "pumpkin_seeds",
+      "melon_seeds",
+      "beetroot_seeds"
+    ]
+  ]
+}

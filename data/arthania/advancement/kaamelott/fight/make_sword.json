@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "En garde espèce de vielle pute dégarnie !",
+    "description": "Fabriquer une épée"
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "stone_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_sword"
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_sword"
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_sword",
+      "iron_sword",
+      "diamond_sword"
+    ]
+  ]
+}

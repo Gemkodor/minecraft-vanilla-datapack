@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": "L'adjectif qui me correspond le mieux, c'est : le plancton",
+    "description": "Récupérer du kelp"
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "get_kelp": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:kelp"]
+          }
+        ]
+      }
+    }
+  }
+}

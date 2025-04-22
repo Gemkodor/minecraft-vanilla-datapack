@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": "Toute façon j'y comprends rien aux cartes !",
+    "description": "Fabriquer une carte"
+  },
+  "parent": "arthania:kaamelott/exploration/go_to_end",
+  "criteria": {
+    "new_map": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:filled_map"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "Franchement, une potion pour faire pisser bleu, ça presse forcémment la minute ?",
+    "description": "Fabriquer une potion",
+    "show_toast": false
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "turtle_master": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:turtle_master"
+      }
+    },
+    "strong_turtle_master": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_turtle_master"
+      }
+    },
+    "long_turtle_master": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_turtle_master"
+      }
+    },
+    "slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:slow_falling"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "turtle_master",
+      "strong_turtle_master",
+      "long_turtle_master",
+      "slow_falling"
+    ]
+  ]
+}

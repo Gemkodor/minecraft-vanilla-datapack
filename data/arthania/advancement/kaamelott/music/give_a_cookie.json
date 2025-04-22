@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+        "id": "minecraft:cookie"
+        },
+        "title": "Je vous préviens, si vous me donnez pas à manger, dans une semaine y'a une chanson sur vous !",
+        "description": "Donner un cookie à un joueur",
+        "show_toast": false
+    },
+    "parent": "arthania:kaamelott/root",
+    "criteria": {
+        "the_bard": {
+        "trigger": "minecraft:thrown_item_picked_up_by_player",
+        "conditions": {
+            "item": {
+            "items": [
+                "minecraft:cookie"
+            ]
+            }
+        }
+        }
+    }
+}
+  

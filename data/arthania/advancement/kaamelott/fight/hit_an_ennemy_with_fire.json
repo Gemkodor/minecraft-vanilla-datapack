@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": "Au bûcher !",
+    "description": "Frapper un ennemi avec une épée Fire Aspect"
+  },
+  "parent": "arthania:kaamelott/fight/make_sword",
+  "criteria": {
+    "iron_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:iron_sword",
+          "enchantments": [
+            {
+              "enchantment": "minecraft:fire_aspect",
+              "levels": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:diamond_sword",
+          "enchantments": [
+            {
+              "enchantment": "minecraft:fire_aspect",
+              "levels": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_sword",
+      "diamond_sword"
+    ]
+  ]
+}

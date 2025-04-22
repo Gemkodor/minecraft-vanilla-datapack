@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": "Mais c'est un portail dimensionnel ou pas ?",
+    "description": "Aller dans l'end ou le nether"
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_nether"
+      }
+    },
+    "end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether",
+      "end"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Kaamelott"
+    },
+    "description": {
+      "color": "green",
+      "translate": "On en a gros !"
+    },
+    "background": "minecraft:textures/block/dirt.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

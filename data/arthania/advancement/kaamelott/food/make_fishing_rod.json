@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": "C'est pas parce que vous faite des tartes à des petits enfants qui existent pas que je dois les emmener à la pêche !",
+    "description": "Fabriquer une canne à pêche",
+    "show_toast": false
+  },
+  "parent": "arthania:kaamelott/food/get_seed",
+  "criteria": {
+    "get_fishing_rod": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fishing_rod"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_pie"
+    },
+    "title": "La seule différence concrète avec des briques, c'est que vous appelez ça des tartes !",
+    "description": "Crafter une tarte à la citrouille",
+    "show_toast": false
+  },
+  "parent": "arthania:kaamelott/food/get_seed",
+  "criteria": {
+    "pumpkin_pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pumpkin_pie"
+      }
+    }
+  }
+}

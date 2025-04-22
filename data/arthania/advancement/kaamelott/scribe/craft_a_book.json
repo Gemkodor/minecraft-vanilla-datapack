@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": "Non mais attendez, là, je crois qu'on s'est mal compris : vous avez une idée du temps qu'il me faut pour tracer une lettre avec ces PUTAINS DE PLUMES ?!",
+    "description": "Crafter un livre avec plume",
+    "show_toast": false
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "note_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:writable_book"
+      }
+    }
+  }
+}

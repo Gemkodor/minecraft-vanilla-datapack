@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:beehive"
+      },
+      "title": "C'était une salope de guêpe ! ",
+      "description": "Détruire une ruche",
+      "show_toast": false
+    },
+    "parent": "arthania:kaamelott/exploration/go_to_end",
+    "criteria": {
+      "note_block": {
+        "trigger": "minecraft:bee_nest_destroyed",
+        "conditions": {
+          "block": "minecraft:bee_nest"
+        }
+      }
+    }
+  }
+  

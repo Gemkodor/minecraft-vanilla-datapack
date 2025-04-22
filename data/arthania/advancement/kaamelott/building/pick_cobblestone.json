@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": "Des cailloux, des cailloux, des cailloux, ça m'énerve !",
+    "description": "Récupérer beaucoup de cailloux"
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone",
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

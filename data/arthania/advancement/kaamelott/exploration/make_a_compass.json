@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": "Faut arrêter ces conneries de nord et sud...",
+    "description": "Crafter une boussole"
+  },
+  "parent": "arthania:kaamelott/exploration/go_to_end",
+  "criteria": {
+    "dragon": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:compass"
+      }
+    }
+  }
+}

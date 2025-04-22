@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": "Je vous ai déjà dis que j'prête du pognon à des taux vraiment pas dégueulasse ?",
+    "description": "Faire un échange"
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "make_a_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "items": [ 
+          {
+            "items": ["minecraft:emerald"]
+          }
+        ]
+      }
+    }
+  }
+}

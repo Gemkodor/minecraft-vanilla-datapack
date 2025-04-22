@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_salmon"
+    },
+    "title": "Au même titre que le bar est fermé, sauf si c’est un poisson, tout travail mérite salaire !",
+    "description": "Pêcher un saumon",
+    "show_toast": false
+  },
+  "parent": "arthania:kaamelott/food/get_seed",
+  "criteria": {
+    "get_cooked_salmon": {
+      "trigger": "fishing_rod_hooked",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:salmon"]
+          }
+        ]
+      }
+    }
+  }
+}

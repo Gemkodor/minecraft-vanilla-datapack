@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "text": "Voilà ! C'est tout ce qu'il y a ! Unisson, quarte, quinte et c'est marre ! Tous les autres intervalles, c'est de la merde !"
+    },
+    "description": {
+      "text": "Jouer une note de musique"
+    },
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "show_toast": true
+  },
+  "parent": "arthania:kaamelott/root",
+  "criteria": {
+    "placeNoteBlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:note_block"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
